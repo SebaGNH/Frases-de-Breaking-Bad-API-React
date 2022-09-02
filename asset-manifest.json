@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Frases-de-Breaking-Bad-API-React/static/css/main.f4d025e4.css",
+    "main.js": "/Frases-de-Breaking-Bad-API-React/static/js/main.1b1d0683.js",
+    "static/media/logo.svg": "/Frases-de-Breaking-Bad-API-React/static/media/logo.4543bc50db3c7112e318.svg",
+    "index.html": "/Frases-de-Breaking-Bad-API-React/index.html",
+    "main.f4d025e4.css.map": "/Frases-de-Breaking-Bad-API-React/static/css/main.f4d025e4.css.map",
+    "main.1b1d0683.js.map": "/Frases-de-Breaking-Bad-API-React/static/js/main.1b1d0683.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4d025e4.css",
+    "static/js/main.1b1d0683.js"
+  ]
+}
