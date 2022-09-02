@@ -18,5 +18,10 @@ padding: 1rem 3rem;
 font-size: 2rem;
 border: 2px solid #000;
 border-radius: .5rem;
+transition: background-size .3s ease;
+&:hover{
+  cursor: pointer;
+  background-size: 400px;
+}
 `;
 

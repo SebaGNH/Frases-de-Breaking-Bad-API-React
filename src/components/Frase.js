@@ -1,13 +1,22 @@
-import React, {Fragment} from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
+import {DivContenedorFrase} from '../Styles/Frase';
+
 
 const Frase = ({frase}) => {
+
+  if(Object.keys(frase).length === 0){
+    return;
+  }
+
   const {author,quote} = frase;
+  //console.log(Object.keys(frase).length); // 0 / 2
+
   return (
-    <Fragment>     
-        <h1>{author}</h1>
-        <p>{quote}</p>
-    </Fragment>
+    <DivContenedorFrase>     
+        <h1>{quote}</h1>
+        <p>{author}</p>
+    </DivContenedorFrase>
   );
 }
 
